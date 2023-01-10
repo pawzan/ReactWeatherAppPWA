@@ -1,0 +1,37 @@
+.weatherComponent {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 44px;
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 100%;
+    padding: 16px;
+}
+
+.weatherDisplay {
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    color: #4619b9;
+    font-size: 50px;
+
+}
+
+.weatherHeart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weatherLocation {
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+    color: darkblue;
+    text-align: center;
+}
+
+@media  screen and (max-width: 768px) {
+   
+    
+}
